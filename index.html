@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI HACKATON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Positivus" />
+            </div>
+            <div class="menu">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Use Cases</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="cta">
+                <a href="#" class="request-quote">Request a quote</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu");
+    
+            hamburger.addEventListener("click", () => {
+                menu.classList.toggle("open");
+            });
+        </script>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Navigating the digital landscape for success</h1>
+            <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+            <div class="cta">
+                <button class="mainbutton">Book a consultation</button>
+            </div>
+        </div>
+        <div class="hero-image">
+           <img src="assets/images/mainimg.png" alt="">
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="brand-logos">
+            <img src="assets/images/1.png" alt="Amazon">
+            <img src="assets/images/2.png" alt="Dribbble">
+            <img src="assets/images/3.png" alt="HubSpot">
+            <img src="assets/images/4.png" alt="Notion">
+            <img src="assets/images/5.png" alt="Netflix">
+            <img src="assets/images/6.png" alt="Zoom">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Services</h2>
+        <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+    </section>
+    <div class="service-cards">
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Search engine optimization</h3>
+                <p><a href="#">Learn more</a></p>
+            </div>
+            <img src="assets/images/Illustration (1).png" alt="SEO">
+        </div>
+        <div class="service-card highlight">
+            <div class="service-content">
+                <h3>Pay-per-click advertising</h3>
+                <p><a href="#">Learn more</a></p>
+            </div>
+            <img src="assets/images/Illustration (2).png" alt="PPC Advertising">
+        </div>
+    </div>
+    
+
+    <!-- Working Process Section -->
+    <section class="working-process">
+        <h2>Our Working Process</h2>
+        <p>Step-by-Step Guide to Achieving <br>Your Business Goals</p>
+    </section>
+
+    <section class="accordion">
+        <div class="accordion-item active">
+            <div class="accordion-header">
+                <span>01</span> 
+                <h3>Consultation</h3>
+                <div class="accordion-icon">-</div>
+            </div>
+            <div class="accordion-content">
+                <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>02</span> 
+                <h3>Research and Strategy Development</h3>
+                <div class="accordion-icon">+</div>
+            </div>
+            <div class="accordion-content">
+                <p>Our team will conduct thorough research and develop a strategy tailored to your business goals and objectives.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>03</span> 
+                <h3>Implementation</h3>
+                <div class="accordion-icon">+</div>
+            </div>
+            <div class="accordion-content">
+                <p>We will implement the strategies and monitor their performance to ensure success.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>04</span> 
+                <h3>Monitoring and Optimization</h3>
+                <div class="accordion-icon">+</div>
+            </div>
+            <div class="accordion-content">
+                <p>Continuous monitoring and optimization will be conducted to achieve the best possible results.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <span>05</span> 
+                <h3>Reporting and Communication</h3>
+                <div class="accordion-icon">+</div>
+            </div>
+            <div class="accordion-content">
+                <p>We will provide regular reports and maintain open communication throughout the process.</p>
+            </div>
+        </div>
+    </section>
+
+    <style>
+ 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .main-container {
+            background-color: #f2f2f2;
+            padding: 20px;
+            max-width: 100%;
+            margin: auto;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+        .form-group textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        button {
+            background-color: #45526e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #324a5e;
+        }
+        footer {
+            background-color: #45526e;
+            color: white;
+            padding: 40px 0;
+            margin-top: 40px;
+        }
+        footer .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        footer h6 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        footer p {
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-container">
+    <div class="container">
+        <div class="form-group">
+            <label for="radio-1">Say hi</label>
+            <input type="radio" id="radio-1" name="option">
+        </div>
+        <div class="form-group">
+            <label for="radio-2">Get a Quote</label>
+            <input type="radio" id="radio-2" name="option">
+        </div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section>
+            <!--Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Company name
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize your footer content.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <p><a href="#!" class="text-white">MDBootstrap</a></p>
+                    <p><a href="#!" class="text-white">MDWordPress</a></p>
+                    <p><a href="#!" class="text-white">BrandFlow</a></p>
+                    <p><a href="#!" class="text-white">Bootstrap Angular</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                    <p><a href="#!" class="text-white">Your Account</a></p>
+                    <p><a href="#!" class="text-white">Become an Affiliate</a></p>
+                    <p><a href="#!" class="text-white">Shipping Rates</a></p>
+                    <p><a href="#!" class="text-white">Help</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-3">
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                    <!-- Copyright -->
+                    <div class="p-3">
+                        © 2020 Copyright:
+                        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                    </div>
+                    <!-- Copyright -->
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                </div>
+                <!-- Grid column -->
+            </div>
+        </section>
+        <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+</footer>
+<!-- Footer -->
+
+
+</body>
+</html>
